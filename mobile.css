@@ -1,0 +1,124 @@
+@media only screen and (max-width: 900px){
+    #backImg{
+        position: relative;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    h2{
+        font-size: 10vw;
+    }
+    
+    h3{
+        font-size: 36px;
+        font-size: 8vw;
+    }
+    
+
+    /* header *********************************************/
+    header{
+        overflow: visible;
+    }
+
+    header h4{
+        display: inline-block;
+        font-size: 5vw;
+        padding: 1vw 0;
+        margin: 0;
+    }
+
+    header ul{
+        list-style-type: none;
+        float: none;
+        text-align: center;
+    }
+    
+    header ul li {
+        display: block;
+        /* margin: 1vh 0; */
+        padding: 3vh 0;
+        background: #d5dcfc;
+        width: 100%;
+    }
+    
+    header a{
+        text-decoration: none;
+        color: white;
+        font-size: 10vw;
+        padding: 2vw;
+    }
+
+    #burgerMenu{
+        display: inline;
+    }
+
+    @keyframes navbar {
+        from{
+            opacity: 0;
+            left: 100vw;
+        }
+
+        to{
+            opacity: 1;
+            left: 0;
+        }
+    }
+
+    .navbar{
+        display: none;
+        /* display: block; */
+        position: absolute;
+        float: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #E6EBFF;
+        height: 100vh;
+        animation-name: navbar;
+        animation-duration: 0.5s;
+    }
+
+
+
+    /* main ***********************************************************/
+    main{
+        padding: 0 5vw;
+    }
+
+    #om p{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .behandling{
+        width: 90%;
+        max-width: 500px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cont{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-bottom: 8vh;
+    }
+
+    .cont a {
+        margin-top: 10px;
+    }
+
+    .cont .fab{
+        font-size: 30px;
+    }
+
+    #åbningstider{
+        text-align: center;
+    }
+    
+    #åbningstider p {
+        float: none;
+        text-align: center;
+    }
+    
+}

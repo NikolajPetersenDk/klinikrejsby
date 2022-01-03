@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#backImg {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+h2{
+    font-size: 3.5vw;
+    font-size: 48px;
+}
+
+h3{
+    font-size: 2.75vw;
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h5{
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Body **************************************************/
+body{
+    background: #E6EBFF;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+/* Header ************************************************/
+header {
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background: #e2edff3e;
+    display: block;
+    position: absolute;
+    top: 0;
+    padding: 3vw 1vw 0 5vw;
+    overflow: hidden;
+}
+
+header h4{
+    display: inline-block;
+    font-size: 1.5vw;
+    font-size: 20px;
+    padding: 1vw 0;
+    margin: 0;
+}
+
+header ul{
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin-top: 1vw;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 1.5vw; */
+    font-size: 20px;
+    padding: 1vw;
+}
+
+header a:hover{
+    background: #e2edff3e;
+}
+
+header hr{
+    border: none;
+    border-top: solid 1px white;
+    margin-top: 5px;
+    width: 40%;
+}
+
+#burgerMenu{
+    display: none;
+    position: absolute;
+    top: 1vh;
+    right: 0;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+#burgerMenu:hover{
+    background: #e2edff3e;
+}
+
+.navbar{
+    position: relative;
+    float: right;
+}
+
+
+
+/* main ***********************************************************/
+main{
+    padding: 0px 100px;
+}
+
+main hr{
+    border: none;
+    border-top: solid 1px #cacaca;
+    margin-top: 50px
+}
+
+main h4{
+    padding-top: 50px;
+}
+
+#om p{
+    width: 50%;
+    max-width: 500px;
+}
+
+main ul{
+    list-style-position: inside;
+}
+
+.behandling{
+    width: 50%;
+    max-width: 500px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.behandling h5{
+    margin-left: -30px;
+}
+
+.behandling p {
+    text-align: right;
+    background-color: #CEDFFF;
+    font-weight: bold;
+}
+
+#kontakt{
+    margin-bottom: 50px;
+}
+
+.cont{
+    width: 33%;
+    float: left;
+}
+
+.cont a {
+    display: block;
+    margin-top: 5px;
+}
+
+.cont .fab{
+    font-size: 20px;
+}
+
+.cont .fas{
+    font-size: 20px;
+}
+
+#billeder img{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#åbningstider{
+    text-align: right;
+}
+
+#åbningstider p {
+    float: right;
+    text-align: justify;
+}
+
+
+
+/* Utility classes *************************************************/
+.normWeight {
+    font-weight: normal;
+}
+
+.portrait{
+    width: 200px;
+}
+
+.sadf{
+    width: 150px;
+}
